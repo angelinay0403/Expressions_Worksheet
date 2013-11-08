@@ -15,3 +15,12 @@ var pizzasOrdered = 3;
 var totalPizzaPerPerson = (slicePerPizza * pizzasOrdered) / peopleAttheParty;
 console.log(totalPizzaPerPerson)
 // the total pizza that each party goer had was 1.2
+
+// Slice of pie part II
+var slicePerPizza = 8;
+var peopleAttheParty = 20;
+var pizzasOrdered = 3;
+var totalPizzaPerPerson = (slicePerPizza * pizzasOrdered) / peopleAttheParty;
+var sliceSparkyEats = (slicePerPizza * pizzasOrdered) % peopleAttheParty; 
+console.log(sliceSparkyEats)
+// slice sparky eats is 4.
