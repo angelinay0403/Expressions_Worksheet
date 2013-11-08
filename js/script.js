@@ -2,10 +2,12 @@
 
 
 // calculate sparky age in dog years.
-var humanYear = 8;
-var dogYear = 7;
-var sparkyAge = humanYear * dogYear;
-Console.log(sparkyAge);
+var humanYear = 8; //sparky is 8 years in human
+var dogYear = 7; //Dog years is seven times uman years.
+var sparkyAge = humanYear*dogYear
+console.log(sparkyAge);
+// Sparky the dog is 56 years old.
+
 
 
 
