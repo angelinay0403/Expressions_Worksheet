@@ -8,6 +8,10 @@ var sparkyAge = humanYear*dogYear
 console.log(sparkyAge);
 // Sparky the dog is 56 years old.
 
-
-
-
+// Slice of pie part I
+var slicePerPizza = 8;
+var peopleAttheParty = 20;
+var pizzasOrdered = 3;
+var totalPizzaPerPerson = (slicePerPizza * pizzasOrdered) / peopleAttheParty;
+console.log(totalPizzaPerPerson)
+// the total pizza that each party goer had was 1.2
