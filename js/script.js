@@ -27,11 +27,19 @@ console.log(sliceSparkyEats)
 
 // average shopping bill
 
-var weeklyExpenses = [100 , 200 , 95 , 150, 100];
-var total = weeklyExpenses [0] + weeklyExpenses [1] + weeklyExpenses [2] + weeklyExpenses [3] + weeklyExpenses [4];
+var weeklyExpenses = [100 , 200 , 95 , 150, 100]; // array of 5 weekly shopping expenses
+var total = weeklyExpenses [0] + weeklyExpenses [1] + weeklyExpenses [2] + weeklyExpenses [3] + weeklyExpenses [4]; 
 console.log(total);
 // total monthly expenses in grocery 645.
-var monthlyExpense = 645;
-var totalWeekInaMonth = 5;
+var monthlyExpense = 645; // array of the total 5 weeks expenses
+var totalWeekInaMonth = 5; // devided by 5 weeks in a month
 var totalWeekPercentage = monthlyExpense / totalWeekInaMonth;
 console.log(totalWeekPercentage)
+// $129.00 per week.
+
+
+
+
+
+
+
