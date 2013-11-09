@@ -24,3 +24,14 @@ var totalPizzaPerPerson = (slicePerPizza * pizzasOrdered) / peopleAttheParty;
 var sliceSparkyEats = (slicePerPizza * pizzasOrdered) % peopleAttheParty; 
 console.log(sliceSparkyEats)
 // slice sparky eats is 4.
+
+// average shopping bill
+
+var weeklyExpenses = [100 , 200 , 95 , 150, 100];
+var total = weeklyExpenses [0] + weeklyExpenses [1] + weeklyExpenses [2] + weeklyExpenses [3] + weeklyExpenses [4];
+console.log(total);
+// total monthly expenses in grocery 645.
+var monthlyExpense = 645;
+var totalWeekInaMonth = 5;
+var totalWeekPercentage = monthlyExpense / totalWeekInaMonth;
+console.log(totalWeekPercentage)
