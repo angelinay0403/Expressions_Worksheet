@@ -38,13 +38,15 @@ console.log(totalWeekPercentage)
 // $129.00 per week.
 
 // Discounts
-var cellPhoneOriginalprice = 500;
-var percentDiscount = 0.25;
-var cellphoneafterDiscount = cellPhoneOriginalprice - (cellPhoneOriginalprice * percentDiscount)
-console.log(cellphoneafterDiscount)
-
-
-
+var cellPhoneOriginalprice = 500;  // item original price
+var percentDiscount = 0.25; // store discount
+var tax = 6.5; // state tax
+var cellphoneafterDiscount = cellPhoneOriginalprice - (cellPhoneOriginalprice * percentDiscount) // item original price, minus originall price times discount. 
+var cellphoneafterDiscountwithTax = cellphoneafterDiscount * tax / 100
+// cellphone after discount with no tax is 375
+var cellphoneTotal = cellphoneafterDiscountwithTax + cellphoneafterDiscount;
+console.log(cellphoneTotal)
+// total of the cellphone with tax is 399.37
 
 
 
