@@ -37,6 +37,11 @@ var totalWeekPercentage = monthlyExpense / totalWeekInaMonth;
 console.log(totalWeekPercentage)
 // $129.00 per week.
 
+// Discounts
+var cellPhoneOriginalprice = 500;
+var percentDiscount = 0.25;
+var cellphoneafterDiscount = cellPhoneOriginalprice - (cellPhoneOriginalprice * percentDiscount)
+console.log(cellPhoneAfterdiscount)
 
 
 
