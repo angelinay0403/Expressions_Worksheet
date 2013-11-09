@@ -41,7 +41,7 @@ console.log(totalWeekPercentage)
 var cellPhoneOriginalprice = 500;
 var percentDiscount = 0.25;
 var cellphoneafterDiscount = cellPhoneOriginalprice - (cellPhoneOriginalprice * percentDiscount)
-console.log(cellPhoneAfterdiscount)
+console.log(cellphoneafterDiscount)
 
 
 
